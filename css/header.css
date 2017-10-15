@@ -1,0 +1,33 @@
+.navigation li{
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.logo{
+    vertical-align: middle;
+    max-width: 200px;
+    max-height: 80px;
+    cursor: pointer;
+}
+.cart{
+    width: 200px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.search-box{
+    width: 300px;
+}
+.search-box input{
+    width: 270px;
+    border-radius: 5px;
+}
+.search-box button{
+    border-radius: 2px;
+}
+.row-item{
+    display: inline-block;
+    margin: 33px auto;
+}
