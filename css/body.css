@@ -78,6 +78,20 @@
     border: none;
 }
 
+.btn-cart:hover {
+    background: #2ea901;
+    color: #fff;
+    font-size: 16px;
+    text-shadow: none;
+    padding: 7px 20px;
+    float: left;
+    margin-top: 0px;
+    font-weight: normal;
+    transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
+    margin-left: 10px;
+    border: none;
+}
+
 .qty {
     padding: 0 5px 1px;
     height: 38px;
@@ -93,6 +107,11 @@
     border: 1px solid #6ea001;
     color: #fff;
 }
-.items-count{
+
+.items-count {
     font-size: 22px;
+    width: 40px;
+}
+.price{
+    font-size: 27px;
 }
