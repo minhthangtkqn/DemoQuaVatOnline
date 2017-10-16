@@ -1,7 +1,16 @@
-.navigation li{
+#header{
+    background-color: #ae0000;
+    color: aliceblue;
+}
+#nav{
+    text-align: right;
+    font-size: 15px;
+}
+#nav li{
     display: inline-block;
     margin-left: 10px;
     font-weight: bold;
+    list-style: none;
 }
 .logo{
     vertical-align: middle;
@@ -11,23 +20,31 @@
 }
 .cart{
     width: 200px;
+    height: 30px;
     text-align: center;
     background-color: aliceblue;
     border-radius: 5px;
-    margin-left: 20px;
     cursor: pointer;
+    font-weight: bold;
+    color: black;
+    float: right;
 }
 .search-box{
-    width: 300px;
+    width: 320px;
 }
 .search-box input{
     width: 270px;
+    height: 30px;
     border-radius: 5px;
+    vertical-align: top;
 }
 .search-box button{
-    border-radius: 2px;
+    height: 30px;
+    border-radius: 5px;
+    vertical-align: top;
 }
 .row-item{
     display: inline-block;
     margin: 33px auto;
+    height: 30px;
 }
